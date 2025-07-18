@@ -100,10 +100,6 @@ npm run dev
 
 https://bbc.com
 
-https://wikipedia.org
-
-https://github.com
-
 ---
 
 ## Future Improvements
