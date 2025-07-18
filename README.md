@@ -55,36 +55,43 @@ accessibility-analyzer/
 
 ### 1. Clone the Repository
 
-bash
+```
 git clone https://github.com/k-9733/Accessibility-Analyzer.git
 cd Accessibility-Analyzer
+```
 
 ### 2. Install Dependencies
 
+```
 cd client
 npm install
 cd ../server
 npm install
+```
 
-### 3.Configure Environment
+### 3. Configure Environment
 
 - Create a .env file inside /server:
+```
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/?retryWrites=true&w=majority
 PORT=5000
+```
 
 ### 4. Run the App
 
 - Start the backend:
+```
 cd server
 npm run dev
+```
 
 - Start the frontend:
+```
 cd ../client
 npm run dev
+```
 
 - App runs at: http://localhost:3000
-
-3000
 
 ---
 
