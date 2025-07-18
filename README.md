@@ -1,10 +1,10 @@
-# 🧪 Accessibility Analyzer
+# Accessibility Analyzer
 
 A full-stack web application that audits website accessibility using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) and [axe-core](https://www.deque.com/axe/).
 
 ---
 
-## 🚀 Features
+## Features
 
 - 🌐 Input any URL and perform an accessibility scan
 - 📊 View Lighthouse accessibility score and axe-core violations
@@ -13,7 +13,7 @@ A full-stack web application that audits website accessibility using [Google Lig
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** [Next.js](https://nextjs.org/) (React), [Tailwind CSS](https://tailwindcss.com/)  
 - **Backend:** [Node.js](https://nodejs.org/), [Express](https://expressjs.com/)  
@@ -34,16 +34,14 @@ accessibility-analyzer/
 
 ---
 
-## 📸 Screenshots (Optional)
+## Screenshots
 
-_Replace with your actual image files or URLs:_
-
-![Home Page](design-assets/homepage.png)  
-![Scan Result](design-assets/result-page.png)
+*abhi karna baaki h bro*
+[Scan Result](design-assets/result-page.png)
 
 ---
 
-## 🧭 How It Works
+## How It Works
 
 1. Enter a website URL in the frontend form
 2. Server launches a **headless browser (Puppeteer)**
@@ -53,7 +51,7 @@ _Replace with your actual image files or URLs:_
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -90,7 +88,7 @@ npm run dev
 
 ---
 
-## 🧪 Example URLs
+## Example URLs
 ### Try scanning these:
 
 https://bbc.com
@@ -117,7 +115,7 @@ https://github.com
 
 ---
 
-# 🙌 Acknowledgments
+# Acknowledgments
 
 - Lighthouse
 
