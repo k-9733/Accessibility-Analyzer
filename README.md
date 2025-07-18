@@ -6,10 +6,10 @@ A full-stack web application that audits website accessibility using [Google Lig
 
 ## Features
 
-- 🌐 Input any URL and perform an accessibility scan
-- 📊 View Lighthouse accessibility score and axe-core violations
-- 🕒 Stores scan history in MongoDB
-- 🔍 Results include WCAG-related issues, ARIA usage, contrast ratios, and more
+-  Input any URL and perform an accessibility scan
+-  View Lighthouse accessibility score and axe-core violations
+-  Stores scan history in MongoDB
+-  Results include WCAG-related issues, ARIA usage, contrast ratios, and more
 
 ---
 
