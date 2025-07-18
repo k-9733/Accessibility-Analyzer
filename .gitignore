@@ -1,0 +1,12 @@
+# Ignore node_modules in both root and client/server
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore environment variables and logs
+.env
+*.log
+
+# macOS/Windows system files
+.DS_Store
+Thumbs.db
