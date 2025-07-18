@@ -24,11 +24,11 @@ A full-stack web application that audits website accessibility using [Google Lig
 
 ## 📁 Project Structure
 
-accessibility-analyzer/
-├── client/ → Frontend UI (Next.js)
-├── server/ → Express API & MongoDB logic
-├── docs/ → Project planning & documentation
-├── design-assets/ → Screenshots, mockups, wireframes
+accessibility-analyzer/\n
+├── client/ → Frontend UI (Next.js)\n
+├── server/ → Express API & MongoDB logic\n
+├── docs/ → Project planning & documentation\n
+├── design-assets/ → Screenshots, mockups, wireframes\n
 └── .gitignore → Ignored files (node_modules, .env, etc.)
 
 
