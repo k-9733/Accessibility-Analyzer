@@ -35,17 +35,23 @@ router.post("/", async (req, res) => {
         score
       }));
 
-    // Inject axe-core directly from source
-await page.evaluate(axeSource => {
-  const script = document.createElement("script");
-  script.text = axeSource;
-  document.head.appendChild(script);
-}, axeCore.source);
+// Inject axe-core into the page
+await page.evaluate(axeCore.source);
 
-// Run axe inside the page context
-const axeResults = await page.evaluate(async () => {
-  return await window.axe.run();
+// Verify axe loaded
+const axeExists = await page.evaluate(() => {
+  return typeof axe;
 });
+
+console.log("AXE TYPE:", axeExists);
+
+// Run axe scan
+const axeResults = await page.evaluate(async () => {
+  return await axe.run();
+});
+
+
+console.log("Violations found:", axeResults.violations.length);
 
 
     await browser.close();

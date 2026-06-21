@@ -99,6 +99,36 @@ npm run dev
 ### Try scanning these:
 
 https://bbc.com
+https://www.wikipedia.org
+https://github.com
+https://developer.mozilla.org
+
+Complex UI
+https://www.amazon.in
+https://www.flipkart.com
+https://www.linkedin.com
+https://www.youtube.com
+
+Govt and accessibility friendly sites
+https://www.nasa.gov
+https://www.w3.org/WAI/
+
+Violation prone
+https://old.reddit.com
+https://news.ycombinator.com
+https://www.craigslist.org
+
+Test Forms
+https://github.com/login
+https://accounts.google.com
+https://www.amazon.in/ap/signin
+
+DEMO
+https://www.gov.uk
+https://www.bbc.com
+https://github.com
+https://www.amazon.in
+https://news.ycombinator.com
 
 ---
 
