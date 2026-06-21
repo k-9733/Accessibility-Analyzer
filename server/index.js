@@ -9,7 +9,7 @@ import dotenv from "dotenv";
 import scanRoutes from "./routes/scan.js";
 
 dotenv.config();
-console.log("✅ MONGO_URI loaded:", process.env.MONGO_URI);
+console.log("✅ MONGO_URI loaded successfully");
 
 const app = express();
 app.use(cors());
